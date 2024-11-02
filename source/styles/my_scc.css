@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, serif;
+    background-color: rgb(213, 213, 213);
+}
+
+.navbar {
+background-color: rgb(111, 111, 111);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(146, 146, 146);
+}
+
+.navbar-brand img {
+width: 60px;
+
+}
+.navbar-toggler {
+background-color: rgb(146, 146, 146);
+color-scheme: rgb(146, 146, 146);
+
+}
+.card-body {
+    background-color: rgb(236, 236, 236);
+}
+
+.side-bar {
+    color: rgb(0, 0, 0);
+}
+.col-lg-12 {
+    background-color: rgb(236, 236, 236);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+
+.col-lg-6 {
+    margin: auto auto;
+}
+
+.carusel-col {
+    background-color: rgb(236, 236, 236);
+
+
+}
+.carousel {
+    padding-left: calc(var(--bs-gutter-x)* .100);
+}
+
+.call {
+    animation: myAnim 2s ease 0s 5 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer {
+    margin-top: 3em;
+    background-color: rgb(236, 236, 236);
+}
+.media-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
